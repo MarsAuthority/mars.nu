@@ -116,7 +116,7 @@ export default ((userOpts?: Partial<Options>) => {
           </ul>
         </div>
       </div>
-      <h3>Memos</h3>
+      <h3 className="desktop-only">Memos</h3>
       <div className="desktop-only" style={{ marginTop: "-20px" }}>
       <iframe
             height="800px"
