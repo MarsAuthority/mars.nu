@@ -117,7 +117,7 @@ export default ((userOpts?: Partial<Options>) => {
         </div>
       </div>
       <h3>Memos</h3>
-      <div style={{ marginTop: "-20px" }}>
+      <div className="desktop-only" style={{ marginTop: "-20px" }}>
       <iframe
             height="800px"
             src="https://memos.mars.nu"
