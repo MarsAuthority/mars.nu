@@ -30,18 +30,6 @@ const Backlinks: QuartzComponent = ({
         )}
       </ul>
     </div>
-    <h3>Memos</h3>
-    <div style={{ marginTop: "-20px" }}>
-    <iframe
-          height="800px"
-          src="https://memos.mars.nu"
-          border="0"
-          frameBorder="no"
-          marginWidth="0"
-          marginHeight="0"
-          allowTransparency="yes"
-        ></iframe>
-    </div>
     </>
   )
 }

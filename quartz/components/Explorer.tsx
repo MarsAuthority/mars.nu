@@ -83,6 +83,7 @@ export default ((userOpts?: Partial<Options>) => {
   }: QuartzComponentProps) => {
     constructFileTree(allFiles)
     return (
+      <>
       <div class={classNames(displayClass, "explorer")}>
         <button
           type="button"
@@ -115,6 +116,19 @@ export default ((userOpts?: Partial<Options>) => {
           </ul>
         </div>
       </div>
+      <h3>Memos</h3>
+      <div style={{ marginTop: "-20px" }}>
+      <iframe
+            height="800px"
+            src="https://memos.mars.nu"
+            border="0"
+            frameBorder="no"
+            marginWidth="0"
+            marginHeight="0"
+            allowTransparency="yes"
+          ></iframe>
+      </div>
+      </>
     )
   }
 
