@@ -1,5 +1,5 @@
 ---
-title: Example Title
+title: 首页 | Mars' Blog
 draft: false
 tags:
   - map
